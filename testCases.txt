@@ -1,1 +1,8 @@
-Test cases go here. 
+Test Case                            Total
+Green package with 2GB and coupon    $49.99
+Green package with 2GB and no coupon $49.99
+Green package with 4GB and coupon    $59.99
+Green package with 4GB and no coupon $79.99
+Blue package with 4GB                $70.00
+Blue package with 5GB                $80.00
+Purple package                       $99.95

@@ -1,1 +1,22 @@
-THINK before you code...
+import Scanner and DecimalFormat
+Create new Scanner object
+Get input from user for what subscription package
+Check that user inputted a valid package name
+Get input from user for how many gigabits of data they used
+Initialize variables data included, price per GB, and price for green package
+If package is blue
+    Set variables to data for the blue package
+Else if package is purple
+    set price to 99.95
+If package is not purple and data >= data included
+    initialize data price to (data - data included) * price per GB
+    Add data price to price
+If package is green
+    Get input from user asking if they have a coupon
+    while coupon is not 'yes' or 'no'
+        Output invalid input
+        Scan for input again and store in coupon
+    if coupon equals 'yes' and price >= 75
+        Subtract 20 from price
+Create new DecimalFormat object with pattern "$#.##"
+Output "Your monthly bill is" and price with DecimalFormat
